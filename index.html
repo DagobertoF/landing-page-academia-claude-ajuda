@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Cross Extreme — Academia em Mineiros do Tietê</title>
+<meta name="description" content="Cross Extreme, academia em Mineiros do Tietê - SP. Treinos de cross, HIIT e força. Agende sua aula experimental.">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'self'; img-src 'self' data:; base-uri 'none'; form-action 'none'">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header><div class="wrap">
+ <a class="logo" href="#inicio" aria-label="Cross Extreme"><img src="images/logo.png" alt="Cross Extreme" width="96" height="46"></a>
+ <nav aria-label="Principal"><ul><li><a href="#inicio">Início</a></li><li><a href="#programas">Treinos</a></li><li><a href="#sobre">Diferenciais</a></li><li><a href="#horarios">Horários</a></li><li><a href="#contato">Contato</a></li></ul></nav>
+ <button class="bg" id="bg" aria-label="Abrir menu" aria-expanded="false" aria-controls="dr">☰</button>
+</div>
+<div class="drawer" id="dr"><a href="#inicio">Início</a><a href="#programas">Treinos</a><a href="#sobre">Diferenciais</a><a href="#horarios">Horários</a><a href="#contato">Contato</a></div></header>
+
+<main>
+<section class="hero" id="inicio"><img class="hbg" src="images/hero-barra.jpg" alt="" width="736" height="414"><div class="wrap">
+ <h1>Transforme seu corpo, <span>alcance seus objetivos</span></h1>
+ <p>Libere todo o seu potencial · Mineiros do Tietê - SP</p>
+ <div><a class="btn" href="#contato">Quero começar</a></div>
+</div></section>
+
+<section class="sec" id="programas"><div class="wrap">
+ <div class="sh"><h2>Nossos <span>treinos</span></h2></div>
+ <p class="sub">Escolha o seu treino</p>
+ <div class="grid">
+  <article class="pc"><div class="im"><img src="images/treino-cross.jpg" alt="Aluno treinando com cordas navais" class="pos-rope" width="560" height="400" loading="lazy"><div class="ic"><svg viewBox="0 0 24 24"><path d="M3 9v6M6 6v12M18 6v12M21 9v6M6 12h12"/></svg></div></div><div class="tx"><h3>Cross Training</h3><p>Força, técnica e superação em cada aula.</p></div></article>
+  <article class="pc"><div class="im"><img src="images/treino-hiit.jpg" alt="Aluno correndo na esteira" class="pos-run" width="560" height="400" loading="lazy"><div class="ic"><svg viewBox="0 0 24 24"><path d="M13 3L5 14h6l-1 7 8-11h-6z"/></svg></div></div><div class="tx"><h3>HIIT &amp; Cardio</h3><p>Queime gordura e aumente a resistência.</p></div></article>
+  <article class="pc"><div class="im"><img src="images/treino-forca.jpg" alt="Aluno fazendo rosca com halter" class="pos-curl" width="560" height="400" loading="lazy"><div class="ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="5" r="2"/><path d="M5 20l7-10 7 10M8 14h8"/></svg></div></div><div class="tx"><h3>Força &amp; Musculação</h3><p>Construa força, massa e resistência.</p></div></article>
+ </div></div></section>
+
+<section class="sec alt-bg" id="sobre"><div class="wrap">
+ <div class="sh"><h2>Por que a <span>Cross Extreme</span></h2></div>
+ <ul class="why">
+  <li><b>Treino com orientação</b><span>Acompanhamento para você treinar com segurança.</span></li>
+  <li><b>No centro da cidade</b><span>Fácil de chegar, na Rua Emílio Rampazzo.</span></li>
+  <li><b>Comece cedo</b><span>Abrimos às 6h para você treinar antes do trabalho.</span></li>
+  <li><b>Resultado a seu ritmo</b><span>Objetivos definidos junto com você.</span></li>
+ </ul></div></section>
+
+<section class="sec" id="horarios"><div class="wrap">
+ <div class="sh"><h2>Horários e <span>localização</span></h2></div>
+ <div class="info">
+  <div class="box"><h3>Funcionamento</h3>
+   <table class="hrs"><tbody><tr><td>Segunda a sábado</td><td>Abre às 06:00</td></tr><tr><td>Domingo</td><td class="closed">Fechado</td></tr></tbody></table>
+   <p class="note">Horário de encerramento e das aulas: confirme pelo WhatsApp.</p></div>
+  <div class="box"><h3>Onde estamos</h3>
+   <p><b>Rua Emílio Rampazzo, 533</b><br>Centro, Mineiros do Tietê - SP, 17320-000</p>
+   <div class="links"><a class="btn alt" href="https://www.google.com/maps/search/?api=1&amp;query=Cross+Extreme+Rua+Em%C3%ADlio+Rampazzo+533+Mineiros+do+Tiet%C3%AA" target="_blank" rel="noopener noreferrer">Ver no mapa</a></div></div>
+ </div></div></section>
+
+<section class="sec alt-bg" id="contato"><div class="wrap">
+ <div class="sh"><h2>Aula <span>experimental</span></h2></div>
+ <p class="sub">Preencha e fale com a gente pelo WhatsApp</p>
+ <form class="f" id="fm" novalidate>
+  <div><label for="nm">Seu nome</label><input id="nm" name="nome" autocomplete="name" maxlength="60" required aria-describedby="er"></div>
+  <div><label for="ob">Seu objetivo</label><select id="ob" name="objetivo"><option>Emagrecer</option><option>Ganhar massa muscular</option><option>Melhorar o condicionamento</option><option>Ainda não sei</option></select></div>
+  <button class="btn" type="submit">Chamar no WhatsApp</button>
+  <div class="msg" id="er" role="alert"></div>
+ </form></div></section>
+
+<section class="sec join"><div class="wrap">
+ <h2>Venha treinar com a gente</h2><p>Comece sua jornada fitness</p>
+ <div class="btns"><a class="btn" href="https://wa.me/5514981542428" target="_blank" rel="noopener noreferrer">Falar no WhatsApp</a><a class="btn alt" href="https://www.instagram.com/crossextrememt_lp" target="_blank" rel="noopener noreferrer">Ver Instagram</a></div>
+ <p class="tel">Ligue: (14) 98154-2428</p>
+</div></section>
+</main>
+<footer><div class="wrap"><img src="images/logo.png" alt="Cross Extreme" width="96" height="46" class="flogo">© 2026 Cross Extreme · Rua Emílio Rampazzo, 533 - Centro, Mineiros do Tietê - SP</div></footer>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>
